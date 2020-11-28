@@ -6,7 +6,7 @@
 
 body {
     margin: 20px 0;
-    background: #6589F9;
+    background: #00B5A1;
 }
 
 h1{
@@ -45,12 +45,12 @@ h1{
 
 .front {
     z-index: 2;
-    background: #FAB942 no-repeat center center / contain;
+    background: #d9d95d no-repeat center center / contain;
 }
 
 .back {
     transform: rotateY(180deg);
-    background-color: #6589F9;
+    background-color: #00B5A1;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -61,5 +61,5 @@ h1{
 }
 
 .match .front {
-    background: #6589F9 !important;
+    background: #00B5A1; !important;
 }
